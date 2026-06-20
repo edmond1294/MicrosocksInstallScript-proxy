@@ -8,7 +8,7 @@ apk add --no-cache git gcc make musl-dev linux-headers openssl-dev curl
 echo "[2/6] 编译 microsocks..."
 cd /tmp
 rm -rf microsocks
-git clone https://github.com/rofl0r/microsocks.git
+git clone https://github.speed-up.workers.dev/https://github.com/rofl0r/microsocks.git
 cd microsocks
 make
 install -m 755 microsocks /usr/local/bin/microsocks
