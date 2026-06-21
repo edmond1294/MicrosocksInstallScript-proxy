@@ -25,7 +25,7 @@ echo "[4/6] 写启动脚本（双栈）..."
 cat >/usr/local/bin/microsocks-run.sh <<EOF
 #!/bin/sh
 
-PORT=1080
+PORT=64464
 USER=admin
 PASS=$PASS
 
